@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springmvc_cfx">
+    <output-path>$PROJECT_DIR$/web/WEB-INF/classes</output-path>
+    <root id="archive" name="springmvc_cfx.war" />
+  </artifact>
+</component>
