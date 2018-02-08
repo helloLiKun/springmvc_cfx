@@ -8,7 +8,6 @@ import javax.jws.WebService;
  */
 @WebService(endpointInterface="service.HelloWorld",serviceName="HelloWorldImpl")//指定webservice所实现的接口
 public class HelloWorldImpl implements HelloWorld {
-
     @Override
     public String sayHi(@WebParam String name) {
         return "helloworldimpl:"+name;
