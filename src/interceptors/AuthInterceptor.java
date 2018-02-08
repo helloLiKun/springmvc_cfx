@@ -40,10 +40,10 @@ public class AuthInterceptor extends AbstractPhaseInterceptor<SoapMessage> {
         }
         NodeList nodes = head.getElementsByTagName("tns:spId");
         NodeList nodepass = head.getElementsByTagName("tns:spPassword");
-        if (nodes.item(0).getTextContent().indexOf("wang") != -1) {
-            if (nodepass.item(0).getTextContent().equals("can")) {
-                System.out.println("认证成功");
-            }
+        System.out.println("----------username--------"+nodes.item(0).getTextContent());
+        System.out.println("----------password--------"+nodepass.item(0).getTextContent());
+        if (nodes.item(0).getTextContent().equals("wang") && nodepass.item(0).getTextContent().equals("123")) {
+            System.out.println("认证成功");
         } else {
             SOAPException soapExc = new SOAPException("认证错误");
             throw new Fault(soapExc);

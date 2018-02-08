@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/springmvc_cfx.iml" filepath="$PROJECT_DIR$/springmvc_cfx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_cfx_service.iml" filepath="$PROJECT_DIR$/springmvc_cfx_service.iml" />
     </modules>
   </component>
 </project>
